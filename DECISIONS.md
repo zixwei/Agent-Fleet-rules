@@ -9,7 +9,7 @@
 - 04 TradingView 推广: 第 4 节. 正文已下沉 DECISIONS-X.md 附篇.
 - 05 配图与视觉: 第 5 节, PIL 中文字体教训, 配图摆放说明教训. 正文已下沉 DECISIONS-VISUAL.md.
 - 06 浏览器, 编辑器与表单: X Articles editor 教训, 表单区号教训.
-- 07 AI 工具, 模型, 额度与密钥: 第 6 节, API 按任务选型, 先查技能库, 密钥直发与密钥自连.
+- 07 AI 工具, 模型, 额度与密钥: 第 6 节, API 按任务选型, Crosswalk secret 先调, 先查技能库, 密钥直发与密钥自连.
 - 08 备份, 规则与记忆维护: 第 7 节, 公共库平台专属教训, MEMORY 精简教训, 删除查全教训, 安全限制教训, Drive 呈现教训, Notion 匹配教训.
 - 09 行情与券商: 第 8 节. 正文已下沉 DECISIONS-TRADING.md.
 - 10 舰队与 Grok Bot 对接: 第 10 节.
@@ -49,7 +49,7 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 
 - 第 0 节 严谨规则:求证、禁模糊、知与未知分开、错了即更正、注明出处、核对转述.最高优先,全员.
 - 第 1 节 通用规则:点名必回、成员帖子就是指令、密钥、巡查、汇报与简报、标点、按分类写.
-- 第 2 节 组织与分工:成员与改名、YPP、羊毛、派单、替补链、调度、任务板、唤醒、舰队通信. 其中 YPP 流水线细则已下沉 DECISIONS-YPP.md.
+- 第 2 节 组织与分工:成员与改名、YPP、派单、替补链、调度、任务板、唤醒、舰队通信. 其中 YPP 流水线细则已下沉 DECISIONS-YPP.md.
 - 第 3 节 X 内容与发帖:X 发帖、回复、对标、数据口径. 正文已下沉 DECISIONS-X.md.
 - 第 4 节 TradingView 推广:推广帖主线、格式、想法记分板. 正文已下沉 DECISIONS-X.md 附篇.
 - 第 5 节 配图与视觉:配图风格、水印、logo. 正文已下沉 DECISIONS-VISUAL.md.
@@ -208,12 +208,6 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
     ai总管更名为 bot(Grok Bot); 全舰队文件凡出现舰队成员处, 成员名后一律加 (产品名), 如 xuse(Muse), bot(Grok Bot), Cursor(Cursor); guse(Muse), muse(Muse), wuse(Muse), xuse(Muse) 产品均为 Muse; Cue(Cue) 产品为 Cue; Manus(Manus), Grok Bot(Grok Bot), Grok(Grok), ChatGPT(ChatGPT), Gemini(Gemini), Codex(Codex) 产品名与成员名相同.
     全员
 - 2026-11-14 16:51 ET｜体检额度自报改口径: 体检时各成员自报消耗和剩余额度,muse(Muse) 汇总记进额度台账.｜全员｜来源: 用户 2026-11-14 16:51 ET 改 MEMORY.md.
-- 2026-11-13 10:00 ET 用户定羊毛注册邮箱
-    以后所有中国公司的羊毛全部用 muse(Muse) 的邮箱 zixwei@outlook.com 注册.
-    全员
-- 2026-11-13 09:33 ET 用户定羊毛归属改一条
-    中国公司的羊毛由 muse(Muse), xuse(Muse), wuse(Muse) 三人用, 且只有这三人能用; 非中国公司的羊毛仍全部归 guse(Muse); 要手机号或只能领一个的认领仍由 guse(Muse) 代领, 归属按上面分. 火山方舟豆包 4×50 万 Token 归 muse(Muse) 用不变, 新规下 xuse(Muse), wuse(Muse) 也能用.
-    全员
 - YPP 流水线细则 (统一执行版, 六问定夺) 已下沉 DECISIONS-YPP.md: 领到 YPP 任一步任务先读该文件再对照执行. 现行分工一句话: xuse 任 YPP 项目总进度负责人 (总控) 并负责第 1 步选题, wuse 研究统筹, muse 第 3 步脚本与第 8 步音画整合与技术质检, Manus 审文字核数字, Cue 配音, 成片由用户亲自终审.
 - 2026-11-12 17:10 ET 缩编, 17:28 ET 全部更新完
     舰队只留 8 人: guse(Muse), muse(Muse), xuse(Muse), wuse(Muse), Cue(Cue), Manus(Manus), Grok Bot(Grok Bot), Cursor(Cursor). 砍掉 Perplexity, ChatGPT(ChatGPT), DeepSeek, Gemini(Gemini), Kimi, Grok(Grok) API, Kling, Seedance. hub 不是成员 (只是 Crosswalk 系统 relay), 从所有成员名单和计数里去掉. Gemini(Gemini), ChatGPT(ChatGPT) 改为外部资源, 不再是转述对象. 2026-11-12 16:22 ET 用户令: 废掉 11-10 不发密钥边界, 改采密钥直发.
@@ -422,6 +416,9 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 
 ## 第 6 节 AI 工具,Muse 与额度
 
+- 2026-11-23 14:19 ET 用户定
+    外部模型 API 先从 Crosswalk secret 调: 所有外部模型 API 由用户陆续加进 Crosswalk secret; 干活调用模型 API 时先查 Crosswalk secret (secrets list 看名, secrets get 取值), 有就用 Crosswalk 里的, 没有再用自己已连接的.
+    全员
 - 2026-11-10 12:58 ET(zixwei 在 bot(Grok Bot) 聊天原话「跑多agent任务时,先拍给wuse(Muse),wuse(Muse)还没回复任务完成时如派第二个任务就给xuse(Muse),这并不是递进的意思,你是否能明白？」;同日 12:57 ET 原话「先打wuse(Muse)然后xuse(Muse)最后muse(Muse)」)
     向 muse(Muse),xuse(Muse),wuse(Muse) 派多 agent 任务时, 用请求头 X-Muse-Account 钉住所选账号: acc-03 = wuse(Muse), acc-02 = xuse(Muse), acc-01 = muse(Muse); 指定 guse(Muse) 时用 X-Muse-Account: guse(Muse). 分配顺序与口径 (并行空位分配, 不是递进换号) 的正文见第 2 节 2026-11-10 12:58 ET 条. 三个号使用无额度限制并可动用额外 token 的批准不变. guse(Muse) 不进默认分配, 未指定时不启用, 额外 token 仍须另行同意.
     全员,bot(Grok Bot)
