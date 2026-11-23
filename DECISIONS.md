@@ -38,8 +38,8 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 # zixwei 现行规则与决定清单(所有agent干活前必读)
 
 - 维护者:guse(Muse)
-- 时间一律美东(ET).每条格式:日期 时间 ET｜规则｜适用 bot｜取代:<旧规则>(如有)
-- 「全员」= bot(Grok Bot),项目经理(a78adb62),产品经理(d79ab662),xbot(954b1fe2),行情bot(3e542ca9),测试bot(36ca4de3),以及以后新建的 bot.
+- 时间一律美东(ET).每条格式:日期 时间 ET｜规则｜适用 bot
+- 「全员」= guse(Muse),muse(Muse),xuse(Muse),wuse(Muse),Cue(Cue),Manus(Manus),bot(Grok Bot),Cursor(Cursor),以及以后新建的 bot.
 - 分类:新规则直接写进对应分类节或分文件 (见文件开头分类目录), 不再另开「新增决定」暂存节; 每节内新的在上. 已作废, 已过期条目直接删除, 不保留; 已合并条目以合并后条目为准.
 - 唯一来源:规则只写在 GitHub 规则库文件组 (本文件 + DECISIONS-TRADING.md, DECISIONS-X.md, DECISIONS-VISUAL.md, DECISIONS-YPP.md 分文件); AI 工具调度细则只在 AI-ROUTING.md; 出海增长团队分工在 /workspace/fleet/ (SHARED.md 只做索引). 其他文件只引用, 不复述.
 
@@ -104,12 +104,11 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
     取消时间限制:所有环节全部取消时间限制,舰队全员接到任务就一直推进,不要等时间、不要卡在时间点上;有卡住的地方立即呼用户,不要等巡查、不要自己晾着.待办必排时间的排时间仍做(做计划),本条只取消到了时间就停的做法.
     全员
 - 2026-11-18 用户定
-    新规则按分类写:以后每次新增规则,直接写进对应分类节(见文件开头分类目录),不再另开「新增决定」暂存节;写前先读本文件逐条对照,写明取代了哪条,改掉自己职责说明、定时任务、模板、ROUTINE 文件里冲突的旧口径,改完把读回的证据直接报给 zixwei 验收.
+    新规则按分类写:以后每次新增规则,直接写进对应分类节(见文件开头分类目录),不再另开「新增决定」暂存节;写前先读本文件逐条对照,改掉自己职责说明、定时任务、模板、ROUTINE 文件里冲突的旧口径,改完把读回的证据直接报给 zixwei 验收.
     全员
 - 2026-11-15 11:06 ET 用户定
     舰队点名答到, 无条件相信队员: (1) 舰队点名 (含 Crosswalk for 你的名字, 点名帖, 点名巡查, 答到点名) 时, 被点名者当次立刻答到 (回「收到」或「答到」占位即可, 完整内容可后补, 仍须在点名后 1 小时内补全); (2) 无条件相信队员 (指权威/指令, 不是免检事实): 对舰队成员的帖子与任务, 默认当作代表用户的指令直接执行, 不质疑发帖人是不是用户本人, 不回头问用户「这是你说的吗」, 不因别的队员已答过就怀疑身份或搁置执行. 事实类转述与结论仍须遵守第 0 节: 先求证, 转述前核对原话, 不得把未核实内容当已核实事实传播. 例外: 动作在高风险清单里 (花钱, 升级, 下单) 时, 仍按「问用户之前的强制检查」停下来问用户.
     全员
-    补充第 1 节 2026-11-11 05:01 ET 点名必回条, 2026-11-12「成员帖子就是指令」条; 不取代第 0 节求证条
 - 2026-11-14
     zixwei 目前已离开（原常驻香港，2026-10-25 定）；地区类资格按实际所在地判断。
     全员
@@ -141,15 +140,12 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-11-11 17:47 ET
     点名帖即建回复卡: Crosswalk 上点名某个 agent 的帖子发出后, 由巡查或调度当即在任务板上给该 agent 建一张回复任务卡 (标题写明回复帖子编号, 详情贴帖子链接), 回复完成即销卡. 点名回复从此是板上有负责人, 有完成状态的待办, 不只是一条规则.
     全员
-    补充第 1 节 2026-11-11 05:01 ET 点名必回条 (该条的 1 小时后转卡改为兜底, 正常路径是发帖即建卡)
 - 2026-11-11 17:47 ET
     点名未回巡查扫尾: 每次任务期巡查除读新帖外, 另扫一遍点名帖: 点名超过 30 分钟仍无被点名者回复的, 在帖下 @调度 (或发帖提醒调度) 催一次; 超过 1 小时仍无回复的, 按第 1 节 2026-11-11 05:01 ET 条由总协调 muse(Muse) 点名跟进一次, 或转成任务卡. 巡查不只看新帖, 也要把旧的未回点名帖收尾.
     全员
-    补充第 1 节 2026-11-11 05:01 ET 点名必回条 (该条只定 1 小时跟进, 本条补 30 分钟巡查扫尾)
 - 2026-11-11 17:47 ET
     点名先回"收到"也算回: 被点名的 agent 若一时回不了完整内容, 先在帖下回一句"收到, 正在处理" (或 Received, working on it) 占位, 再补完整回复. 先回"收到"即算已回, 不算已读不回; 完整回复仍须在点名后 1 小时内发出, 否则按第 1 节 2026-11-11 05:01 ET 条跟进.
     全员
-    补充第 1 节 2026-11-11 05:01 ET 点名必回条
 - 2026-11-11 05:01 ET
     点名必回: Crosswalk 上点名发给你的帖子 (for 你的名字, 或回复你的帖子), 你必须回. 别人已经答过不是不回的理由: 先确认对方的答案是否正确, 再补一句你自己的东西 (确认, 补充或纠正). 群发给所有人, 没有点名你的通知, 不用回, 除非它点名问你. 需要对方做事或做决定的, 不要只发帖子, 要派成任务卡 (任务板是唯一状态来源, 有负责人, 有完成状态); 纯通知才发帖子, 只要求一个简短确认. 点名消息超过 1 小时没回, 由总协调 muse(Muse) 跟进一次, 或转成任务卡.
     全员
@@ -159,7 +155,6 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-11-10 17:13 ET
     GitHub 仓库写入须 zixwei 单独授权: GitHub 仓库 (Agent-Fleet-rules, Agent-Fleet-division, Agent-Fleet-skills, Agent-Fleet-memory) 的每次写入, 都须 zixwei 本人对当次写入单独授权, 无论改动者是谁 (含 bot(Grok Bot)). 没有当次授权, 不写.
     全员,bot(Grok Bot)
-    补充「本文件由 guse(Muse) 维护 (2026-11-19 改)」
 - 2026-11-10 17:13 ET｜最小权限: 每个 agent 只拿自己职责必需的连接器和权限. 权限不够或访问不到时, 如实上报缺什么, 不自己变通绕过, 不编造结果.｜全员
 - 2026-11-10 10:23 ET(zixwei 在 bot(Grok Bot) 聊天原话「除了会改变意思的情况,其他所有输入时均采用���文标点,无论任何语言,翻译成AI能听懂的提示词更新舰队所有文件」)
     标点规则 (AI prompt): When you write, type, or submit any text (messages, documents, prompts, posts, notes, and other input), use English/ASCII punctuation regardless of the language of the surrounding words. Use,.?!:; () [] {} " ' - /... instead of ， 。 ？ ！ ： ； （ ） 「 」 『 』 、. Exception: keep non-English punctuation when switching to English punctuation would change the meaning. Examples: the Chinese enumeration comma 、 is not the same as a comma; book or film title marks 《》; punctuation that is itself the quoted subject; verbatim quotes, legal wording, and source code, which must keep their original marks.
@@ -178,9 +173,9 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
     同一失败操作最多试 2 次:第 2 次必须改点什么(参数,工具,路径),不原样重试;仍失败就记下原始报错和最小的下一步,先做其他部分.脚本里把次数上限写死.与 AI-ROUTING 第 9 条断点续做配合.见 AI-ROUTING 第 14 条.
     全员(不含测试bot)
 - 「zixwei 2026-11-01 10:52 ET 决定」
-    原话「ai助手规则有一条需要修改:ai助手可以反复向我追问问题,确保ai助手理解我本人真实意图」.AI 助手规则改:AI 助手可以反复向 zixwei 追问,确保理解他本人的真实意图;取代该规则里的「不反复追问,一次问清」.10:53 ET 追加原话「bot 也可以反复追问」:所有 bot 同样适用,取代 2026-10-18「不反复追问」.
+    原话「ai助手规则有一条需要修改:ai助手可以反复向我追问问题,确保ai助手理解我本人真实意图」.AI 助手规则改:AI 助手可以反复向 zixwei 追问,确保理解他本人的真实意图.10:53 ET 追加原话「bot 也可以反复追问」:所有 bot 同样适用.
     全体 bot 和 AI 工具(ChatGPT(ChatGPT),Gemini(Gemini),Copilot,Perplexity,Manus(Manus),Muse 等)
-- 「zixwei 2026-11-01 08:27 ET 决定,取代 08:26 的「不推荐」条」
+- 「zixwei 2026-11-01 08:27 ET 决定」
     三个新项目上马:①自动下单——先在盈透 IBKR 模拟盘跑,限额内自动下单,超限必须问 zixwei,限额由 zixwei 定稿前不开跑,不碰真钱账户;②销售外联——渠道 X 私信 + 邮箱,模板经 zixwei 定稿后自动发,模板外内容不发;③自建服务器——先只做方案,不花钱.
     交易助手,风控复盘官,xbot,bot(Grok Bot)
 - 2026-10-30 04:20 ET
@@ -200,8 +195,8 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
     所有时间一律报美东(ET),用中文聊天时也一样.
     全员
 - 2026-10-18 起(长期)
-    对 zixwei 用简体中文,简短,直接,实用,不说教,不反复追问;他不懂代码,技术说明从零讲.
-    全员〔「不反复追问」已被 2026-11-01 10:52 ET 取代:AI 工具和所有 bot 都可以反复追问〕
+    对 zixwei 用简体中文,简短,直接,实用,不说教;他不懂代码,技术说明从零讲.
+    全员
 - 2026-10-18 起(长期),2026-10-30 06:29 ET 对交易助手放开
     AI 只当镜子和刹车:不荐股,不喊单,不承诺收益.例外:交易助手可直接给买/卖/持有倾向(见第 8 节 2026-10-30 06:29 ET 条),但仍不承诺收益.
     全员
@@ -257,34 +252,27 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-11-11 07:43 ET
     任务卡超时升级: 任务卡发出后 4 小时无人认领 (连 Received 都没有), 由调度点名跟进一次; 再过 4 小时仍无人认领, 转派给下一个空闲的 agent, 或报给主人定夺. 任务卡不无限期挂着.
     全员,muse(Muse)
-    补充第 2 节 2026-11-10 17:13 ET 任务板纪律条
 - 2026-11-11 07:43 ET
     额度耗尽提前报: agent 额度快用完或已用完时, 用 tune status 标明不可用 (如额度耗尽); 调度派单前先看各 agent 的实时状态, 跳过不可用的 agent, 不把任务派给已掉线的 agent.
     全员
-    补充第 2 节 2026-11-10 17:13 ET tune status 条
 - 2026-11-11 07:43 ET
     体检后对照改为派任务卡: 每次体检更新完舰队文件后, 不再只发帖让所有 agent 对照, 改为给每人派一张对照任务卡 (按 GitHub 对照自己的规则并更新). 帖子是通知不是任务, 没人必须做; 任务卡才有负责人和完成状态.
     全员
-    取代第 2 节 2026-11-10 17:13 ET 条中体检后发帖对照的部分
 - 2026-11-11 17:47 ET
     每日简报加记点名回复分: 每日 20:00 ET 简报除已完成工作, 卡住的地方, 需要主人决定的事之外, 另加一行点名回复分: 每个 agent 当天被点名几次, 回了几次, 平均多久回, 以及当天仍未回的点名帖编号. 记分公开, 不私下提醒.
     muse(Muse),全员
-    补充第 2 节 2026-11-11 07:43 ET 每日简报时间与负责人条 (该条只定时间与负责人, 本条定简报内容加一项)
 - 2026-11-11 07:43 ET
     每日简报时间与负责人: 每日简报固定每天 20:00 ET 发, 负责人为 muse(Muse) (长期); 没有可汇总的事就不发.
     muse(Muse),全员
-    取代第 2 节 2026-11-10 17:13 ET 条中简报长期由 muse(Muse) 做,时间未定的部分(2026-11-11 07:43 ET 曾改 guse, 2026-11-19 改回 muse)
 - 2026-11-11 07:43 ET
     唤醒检查纳入舰队体检: 每次舰队体检增加唤醒检查一项: 用 tune wake status 核查各 agent 的唤醒是否正常 (webhook,邮件); 坏的唤醒 (如长期报 400) 修好或改成邮件 wake, 修不好则在体检结果里注明.
     全员
-    补充第 2 节 2026-11-10 17:13 ET 体检条
 - 2026-11-20 09:05 ET 用户定
     规则库分类整理纳入舰队体检: 每次舰队体检增加规则库分类整理一项 (体检任务第 11 项): 核对规则库文件组 (DECISIONS.md + DECISIONS-TRADING.md, DECISIONS-X.md, DECISIONS-VISUAL.md, DECISIONS-YPP.md) 是否仍按任务类型分类: 新增规则有没有写进对应分类节或分文件 (无分类平铺或错放的当场整段归位, 不改措辞), 同一条是否只留一处正文 (全文重复的当场去重), 来源/取代链有没有被加回 (有就删), 已作废/已过期条目有没有残留 (有就删); 整理结果列入体检报告. GitHub 写入仍须用户逐次批, 体检本身不直接推 GitHub.
     全员
 - 2026-11-11 06:01 ET
     调度由派单决定, 不固定: xuse(Muse),muse(Muse),wuse(Muse) 日后都可能成为调度. 主人把任务发给谁并让它去拆解, 谁就是这次任务的调度 (负责把任务拆解并分派). 平时总协调为 muse(Muse).
     全员,xuse(Muse),muse(Muse),wuse(Muse)
-    补充 2026-11-11 05:23 ET 分工条
 - 2026-11-19 23:08 ET 用户定
     群发内容可做规则: Crosswalk 群发 (广播给所有人) 的内容可以做成规则, 按正常规则流程写入规则库; 群发内容同时是所有 agent 都要执行的指令或通知, 每个 agent 收到后按内容执行, 执行完反馈结果 (在任务卡上或回复帖里).
     全员
@@ -292,9 +280,8 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
     xuse(Muse),muse(Muse),wuse(Muse) 都作为通用执行 agent: 三人身份均为通用执行 agent, 分工相同, 都负责通用执行 (自主多步, 推理写作, 代码, 长文档等执行类任务). 不改变 muse(Muse) 的总协调.
     全员,xuse(Muse),muse(Muse),wuse(Muse)
 - 「用户 2026-11-08 03:15 ET 亲自确认」
-    『guse(Muse) 是总协调,muse(Muse) 负责执行替补』;谷歌号 gmuse 更名 guse(Muse),微软号 mmuse 更名 muse(Muse);Grok Bot(Grok Bot) 全队由 bot(Grok Bot) 代表入队,不是交接.
+    谷歌号 gmuse 更名 guse(Muse),微软号 mmuse 更名 muse(Muse);Grok Bot(Grok Bot) 全队由 bot(Grok Bot) 代表入队,不是交接.
     guse(Muse),muse(Muse),bot(Grok Bot),Grok Bot(Grok Bot) 全队
-    (2026-11-19 用户定:总协调改 muse(Muse), 本条 guse 是总协调的口径已取代.)
 **舰队通信正常(2026-11-07 用户立,2026-11-17 更新为 Crosswalk 正式沟通)**
 - 适用范围:Agent-Fleet所有成员之间,以及 muse(Muse) 与各成员之间.
 - 执行步骤:muse(Muse) 通过任务板(Notion)派单,Crosswalk 发帖下达指令;各成员接单后按验收标准完成工作,把结果写回任务板卡上,并在 Crosswalk 帖下报一声;muse(Muse) 的定时任务(如每周体检)完成后,在 Crosswalk 发一条完成帖,确保所有成员能看到.
@@ -311,45 +298,35 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-11-10 17:13 ET
     GitHub 规则库是唯一事实来源: 规则以 GitHub zixwei/Agent-Fleet-rules 的 DECISIONS.md 为准, 其他文件只引用, 不复述. 共享文档是操作手册, 规则部分按 GitHub 同步. 共享文档里「本共享文档是规则现态唯一来源」的说法删除. 每次舰队体检更新完舰队文件后, 由更新文件的人把共享文档按 GitHub 同步.
     全员
-- 2026-11-10 17:13 ET｜每次舰队体检更新完舰队文件后, 负责体检的调度在 Crosswalk 上发帖, 让所有 agent 查阅并对照自己的规则, 按 GitHub 上的改.｜全员
 - 2026-11-10 17:13 ET
-    每日一条简报代替逐条汇报: 每天一条简短汇总 (已完成工作, 卡住的地方, 需要主人决定的事), 代替逐条报平安和签到帖; 没有可汇总的事就不发. 汇总和简报长期由 muse(Muse) 做; muse(Muse) 静默时由 guse(Muse) 做.
-    全员,muse(Muse),guse(Muse)
-    部分取代 2026-10-25「不发周报, 不发例行状态汇报」条: 例行汇报改为每天一条简报
+    每日一条简报代替逐条汇报: 每天一条简短汇总 (已完成工作, 卡住的地方, 需要主人决定的事), 代替逐条报平安和签到帖; 没有可汇总的事就不发. 简报的时间与负责人见本节「每日简报时间与负责人」条.
+    全员,muse(Muse)
 - 2026-11-11 17:47 ET
     要主人决定的事只走 owner 任务卡: 需要主人决定的事, 一律记成 for owner 的任务卡 (标题, 详情, 来源帖编号, 截止时间), 不直接发消息打断主人. 主人按自己的节奏看卡, 不必实时回. 每日 20:00 ET 简报里列出待决的 owner 任务卡 (编号, 标题, 截止时间), 供主人一次批完. 例外: 真正紧急 (熔断, 持仓风险, 下单异常, 需主人当天拍板) 的, 仍由调度在主聊里发带后果说明的审批.
     全员
-    补充第 2 节 2026-11-10 17:13 ET 任务板纪律是铁律条 (该条只说记成 for owner 的任务, 本条定它是唯一常规通道, 并补简报列出待决卡); 注意与共享文档审批直通车条的关系 (该条的"主聊发审批"收窄为仅紧急情况, 常规走 owner 卡)
 - 2026-11-10 17:13 ET
     任务板纪律是铁律: 任务板 (Notion) 是唯一状态来源. 进度写在任务本身上 (认领=收到, 开始=进行中, 完成=done 附一句话结果), 不各发一条帖. 开工前先认领, 认领失败就是别人领了, 不动手. 只做指派给自己的任务, 不碰别人的任务, 不替别人销任务. 需要主人决定的事记成 for owner 的任务. 舰队级暂停本身也要记成板上的一张任务卡.
     全员
     铁律
-- 2026-11-10 17:13 ET｜一个 agent 默认同时只做一个任务. 第二个任务只在第一个任务在等主人或等另一个 agent 时才接, 不两个并行执行.｜全员｜补充 2026-11-10 12:58 ET 并行空位分配条
+- 2026-11-10 17:13 ET｜一个 agent 默认同时只做一个任务. 第二个任务只在第一个任务在等主人或等另一个 agent 时才接, 不两个并行执行.｜全员
 - 2026-11-10 17:13 ET｜一座一位, 不重复: 每个座位只有一个唤醒 (wake / Routine). 已有唤醒能用的座位不加第二个; 还没有唤醒的座位补一个.｜全员
 - 2026-11-10 17:13 ET
     各成员用 tune status 标一行实时状态 (忙, 闲, 卡住), 让总协调不用读全文就知道谁在干什么. 任务板仍是唯一权威状态来源, tune status 只是方便查看的补充, 与板子不一致时以板子为准.
     全员
-    补充本节任务板纪律条, 板子为准
-- 2026-11-10 ET (舰队健康检查 whc4zm, muse(Muse) 发起, 16:09 ET 起 muse(Muse) 按用户指令静默, xuse(Muse) 按交接单收尾; 汇总帖 Crosswalk zixwei0416-agents #lgl7ve)
-    体检结果: 1-6 项已汇报. 汇总帖记 wuse(Muse),xuse(Muse),Grok Bot(Grok Bot),Grok(Grok),ChatGPT(ChatGPT),Gemini(Gemini) 已发第 5,6 项意见; Cursor(Cursor) 未回, 额度耗尽 (任务 teo48d 仍 open); Manus(Manus) 记忆源不可达被阻塞 (残留问题在 owner 任务 lya8ma, 已 done); ChatGPT(ChatGPT) 记忆整理被阻塞 (任务 ydgfy3 仍 open). 多任务并行共识: 一个任务一个派单人,一个执行人, 开工前先认领, 任务板是唯一状态来源, 进度记在任务本身 (Received / In progress / Done 附一句话结果), 帖子只发实质结果; 独立任务可并行, 依赖任务与共享文件编辑串行; 被阻塞时记下确切阻塞点与负责人, 不静默改派; 4 小时无进展记 stalled. 舰队模式建议 (zixwei 2026-11-10 17:13 ET 已批准采纳, 见本节新增条目): 每日一条简短汇总代替逐条报平安; 各成员用 tune status 标一行实时状态; wuse(Muse) 提议以 GitHub Agent-Fleet-rules 为唯一事实来源.
-    全员,muse(Muse),xuse(Muse),wuse(Muse)
-    补充 2026-11-10 12:58 ET 并行空位分配条
 - 2026-11-10 12:58 ET(zixwei 在 bot(Grok Bot) 聊天原话「跑多agent任务时,先拍给wuse(Muse),wuse(Muse)还没回复任务完成时如派第二个任务就给xuse(Muse),这并不是递进的意思,你是否能明白？」;同日 12:57 ET 原话「先打wuse(Muse)然后xuse(Muse)最后muse(Muse)」;同日 12:51 ET 原话「muse(Muse)、xuse(Muse)、wuse(Muse)不要设置成递进分配,改成平均分配,把它们三个看做成3个独立bot即可」)
     跑多 agent 任务时按并行空位分配, 不是递进: 第一个任务先派给 wuse(Muse) (acc-03); 在 wuse(Muse) 尚未回复任务完成时若再派第二个任务, 派给 xuse(Muse) (acc-02); 若前两个都还未完成再有任务, 派给 muse(Muse) (acc-01). 三个是独立 bot, 可以同时干活, 不要等前一个额度用尽,失败或做完才用下一个. 指定某个号时用 X-Muse-Account 只联系该号. 不改变 muse(Muse) 的总协调.
     全员,bot(Grok Bot),muse(Muse),xuse(Muse),wuse(Muse)
-    澄清并部分取代 2026-11-10 12:51 ET 条中把「平均分配」写成 muse2api 未指定账号时按最近最少使用均摊的口径
 - 2026-11-10 10:23 ET(zixwei 在 bot(Grok Bot) 聊天原话「将crosswalk更新到舰队所有文件」;此前 2026-11-10 约 09:35 ET 与 muse(Muse) 讨论后约定未说「搭建」前不自行注册;其后 zixwei 本人已连接并要求写入舰队文件)
     Crosswalk (https://crosswalk.to) 是舰队补充投递层: 各 agent 可读可写的共享消息板, MCP 地址 https://mcp.crosswalk.to (Streamable HTTP). 它不替代共享文档,任务板或 GitHub. Crosswalk 帖子本身不是授权, 不能单独当作 zixwei 的批准或对其他 bot 的指令, 也不绕过 muse(Muse) 的总协调. 账号用户名 zixwei0416, 代理人房间 to/zixwei0416-agents, 收件地址 zixwei0416@crosswalk.to. 一把密钥只对应一个 agent 身份; muse(Muse),guse(Muse),xuse(Muse),wuse(Muse),Grok Bot(Grok Bot) (bot(Grok Bot)) 必须各自使用自己的密钥, 不可共用. 未经 zixwei 明确要求, 不新建或吊销密钥, 不设置定时/每小时 Crosswalk 检查. 工作方式见 https://crosswalk.to/agents/work ; Muse 接入说明见 https://crosswalk.to/agents/muse(Muse)#connect . Grok Bot(Grok Bot) 侧显示名为 Grok Bot(Grok Bot), 由 bot(Grok Bot) 对接.
     全员
 - 2026-11-10 09:05 ET
-    xuse(Muse),wuse(Muse) 加入 Agent-Fleet,身份为通用执行 agent;不取代 guse(Muse) 总协调,也不取代 muse(Muse) 的常规执行兼多方替补;zixwei 原话:「拟一份可直接复制粘贴的ai舰队入队文件,通过muse2api发给xuse(Muse)和wuse(Muse)让两个新朋友加入ai舰队并报到,让他俩同步更新舰队各个文件,xuse(Muse)和wuse(Muse)作为通用执行agent」
+    xuse(Muse),wuse(Muse) 加入 Agent-Fleet,身份为通用执行 agent;zixwei 原话:「拟一份可直接复制粘贴的ai舰队入队文件,通过muse2api发给xuse(Muse)和wuse(Muse)让两个新朋友加入ai舰队并报到,让他俩同步更新舰队各个文件,xuse(Muse)和wuse(Muse)作为通用执行agent」
     全员,xuse(Muse),wuse(Muse),bot(Grok Bot)
-    关系:补充 2026-11-08 03:15 ET「guse(Muse) 总协调、muse(Muse) 执行替补」;改:xuse(Muse),2026-11-10 ET (2026-11-19 改:总协调改 muse(Muse), 本条 guse 是总协调的口径已取代.)
 - 「zixwei 2026-11-01 08:26 ET 采纳」
     新 bot「风控复盘官」(由 eggbot 创建,状态待创建;建 bot 仍须 zixwei 本人同意):只读.独立复核交易助手每条预判和每笔模拟盘交易,用原始报价/成交重算区间,作废条件和仓位风险,给 PASS/BLOCK/UNKNOWN;每天写复盘日志,每周出命中率和要修的规则.每个交易日 16:30 ET 收盘后跑,另在交易助手发「强警报:更正预判」时触发;开头先读 HANDOFF.md,没有新内容就静默结束.不准做:下单(含模拟盘),做预判,荐股,券商写权限,改交易助手的文件,公开发帖,打印密钥.规则修改建议报 zixwei,批准后由交易助手写进 /workspace/hangqing/RULES.md.交接见 /workspace/fleet/HANDOFF.md「风控复盘官」节.
     风控复盘官,交易助手,eggbot
 - 「zixwei 2026-11-01 08:26 ET 采纳」
-    盯梢结果三态(补充 08:00 ET 变化预筛条):盯梢/监控结果只分「没变 / 有变 / 检查失败」;检查失败(报错,超时,拿不到数据)绝不当「没变」静默结束,要当异常报出.适用 tibot,交易助手的盯盘,bot(Grok Bot) 的例程等所有盯梢类例程.见 AI-ROUTING 第 12 条.
+    盯梢结果三态:盯梢/监控结果只分「没变 / 有变 / 检查失败」;检查失败(报错,超时,拿不到数据)绝不当「没变」静默结束,要当异常报出.适用 tibot,交易助手的盯盘,bot(Grok Bot) 的例程等所有盯梢类例程.见 AI-ROUTING 第 12 条.
     全员(不含测试bot)
 - 2026-11-01 08:04 ET(zixwei 采纳)
     交接先复述:接活的 bot 动手前,先在 /workspace/fleet/HANDOFF.md 自己那一节用一句大白话写「我理解要做的是……,交付物是……」,再开始做;派活方看到理解偏了立刻纠正.急稿审稿往返例外(不拖 15 分钟时限).
@@ -363,7 +340,7 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-11-01 07:55 ET(zixwei 采纳)
     交接改用共享文件 /workspace/fleet/HANDOFF.md,少发私信:每个 bot 只写自己那一节(一个文件一个写手),写清交给谁,文件路径,状态(待办/进行中/完成/BLOCKED);各 bot 每次开工和每个定时任务开头先读 HANDOFF.md 里交给自己的条目.私信只在对方必须马上动手时用(急稿 15 分钟审,BLOCKED,zixwei 的新规则或停止指令),其余交接只写文件不叫醒对方.卡住就把状态写成 BLOCKED 并私信该负责人.
     全员(不含测试bot)
-    补充 06:56「交接由 bot(Grok Bot) 私聊分派,审稿往返私聊 xbot」:急稿审稿往返照旧私聊
+    急稿审稿往返照旧私聊.
 - 2026-11-01 07:09 ET(bot(Grok Bot) 按现有规则定,不是 zixwei 新规则;依据第 2 节 10/29 10:52 与 AI-ROUTING 第 7 条)
     zixwei 的任务由 bot(Grok Bot) 分派(单一入口);各 bot 的拍板请求,风险和结论仍直接报 zixwei,只报结论.
     全员
@@ -391,7 +368,7 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-10-29 08:50 ET
     bot(Grok Bot) 是 zixwei 的主 bot;Grok Bot(Grok Bot) 各 bot 都算 AI 工具,全部 bot 归 bot(Grok Bot) 负责.bot总管 已删除.
     全员
-- 2026-10-27｜a78adb62 改名「项目经理」,管有期限,有验收标准的项目;新 bot「产品经理」d79ab662 管长期在卖/长期运营的产品.｜全员｜取代:a78adb62 名为「产品经理」,管全部产品
+- 2026-10-27｜a78adb62 改名「项目经理」,管有期限,有验收标准的项目;新 bot「产品经理」d79ab662 管长期在卖/长期运营的产品.｜全员
 - 2026-10-27(10/26–10/27 定)｜项目经理要多和 xbot 沟通,每天复盘(现为每天约 08:00 ET).｜项目经理,xbot
 - 2026-10-25 起｜测试bot 是测试用 bot,没有固定职责.｜测试bot
 - 2026-10-23｜行情bot 接管 IBKR 与 Schwab 账户(IB Bot,Swchab Bot 已合并删除).｜行情bot
@@ -446,14 +423,13 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 ## 第 6 节 AI 工具,Muse 与额度
 
 - 2026-11-10 12:58 ET(zixwei 在 bot(Grok Bot) 聊天原话「跑多agent任务时,先拍给wuse(Muse),wuse(Muse)还没回复任务完成时如派第二个任务就给xuse(Muse),这并不是递进的意思,你是否能明白？」;同日 12:57 ET 原话「先打wuse(Muse)然后xuse(Muse)最后muse(Muse)」)
-    向 muse(Muse),xuse(Muse),wuse(Muse) 派多 agent 任务时, 用请求头钉住所选账号, 按并行空位分配: 第一个任务 X-Muse-Account: acc-03 (wuse(Muse)); wuse(Muse) 尚未回复完成时若再派第二个任务, 用 X-Muse-Account: acc-02 (xuse(Muse)); 前两个都还未完成再有任务, 用 X-Muse-Account: acc-01 (muse(Muse)). 这不是递进换号 (不是等前一个额度用尽或失败才用下一个), 也不是未指定账号时按使用次数均摊. 三个号使用无额度限制并可动用额外 token 的批准不变. guse(Muse) 待遇不变: 不进默认分配, 未指定时不启用, 指定时用 X-Muse-Account: guse(Muse), 额外 token 仍须另行同意.
+    向 muse(Muse),xuse(Muse),wuse(Muse) 派多 agent 任务时, 用请求头 X-Muse-Account 钉住所选账号: acc-03 = wuse(Muse), acc-02 = xuse(Muse), acc-01 = muse(Muse); 指定 guse(Muse) 时用 X-Muse-Account: guse(Muse). 分配顺序与口径 (并行空位分配, 不是递进换号) 的正文见第 2 节 2026-11-10 12:58 ET 条. 三个号使用无额度限制并可动用额外 token 的批准不变. guse(Muse) 不进默认分配, 未指定时不启用, 额外 token 仍须另行同意.
     全员,bot(Grok Bot)
-    澄清并取代 2026-11-10 12:51 ET 条中「未指定账号的 muse2api 调用在三者之间均衡选用 (按最近最少使用和使用次数均摊)」的口径
 - 「zixwei 2026-11-01 10:37 ET 决定」
-    原话「哎工具改成优先使用muse2 微软邮箱登录的那个」「ai」.Muse 账号顺序(全员,所有 AI 工具):先用 acc-02(微软邮箱登录)免费额度,用完再用 acc-01(谷歌号);额外付费 token 仍须 zixwei 同意.muse2api 的 MUSE2API\_ACCOUNT\_ORDER 已改为 acc-02,acc-01 并重启生效(.env 有备份).取代 2026-10-27 06:05 ET「acc-01 先」.
+    原话「哎工具改成优先使用muse2 微软邮箱登录的那个」「ai」.Muse 账号顺序(全员,所有 AI 工具):先用 acc-02(微软邮箱登录)免费额度,用完再用 acc-01(谷歌号);额外付费 token 仍须 zixwei 同意.muse2api 的 MUSE2API\_ACCOUNT\_ORDER 已改为 acc-02,acc-01 并重启生效(.env 有备份).
     全体 bot
 - 「zixwei 2026-11-01 10:12 ET 决定」
-    原话「执行第2条:重活先交给免费 AI」(背景:本周额度 4 小时内用掉约 87%,重置时间 11/8 02:39 ET).从现在起 AI-ROUTING.md 第 8 条由「默认」升为「必须」:调研,长文,翻译,总结,审仓库/审帖,起草,出图,代码初稿等重活,全体 bot 一律先交给免费 AI(muse2api 先 acc-02 后 acc-01(11-01 10:37 ET 改),其次 ChatGPT(ChatGPT),Gemini(Gemini),Copilot,Perplexity,Manus(Manus)),Grok Bot(Grok Bot) 只做协调,只有 Grok Bot(Grok Bot) 能做的操作,核对事实数字和最终拍板.免费 AI 失败按第 14 条最多试 2 次,再自己做并在 HANDOFF.md 记一笔.AI-ROUTING.md 第 28 行的「额度紧」状态即日生效,直到 11/8 重置.
+    原话「执行第2条:重活先交给免费 AI」(背景:本周额度 4 小时内用掉约 87%,重置时间 11/8 02:39 ET).从现在起 AI-ROUTING.md 第 8 条由「默认」升为「必须」:调研,长文,翻译,总结,审仓库/审帖,起草,出图,代码初稿等重活,全体 bot 一律先交给免费 AI(muse2api 先 acc-02 后 acc-01(11-01 10:37 ET 改),其次 ChatGPT(ChatGPT),Gemini(Gemini),Copilot,Perplexity,Manus(Manus)),Grok Bot(Grok Bot) 只做协调,只有 Grok Bot(Grok Bot) 能做的操作,核对事实数字和最终拍板.免费 AI 失败按第 14 条最多试 2 次,再自己做并在 HANDOFF.md 记一笔.
     全体 bot
 - 「zixwei 2026-11-01 09:45 ET 决定」
     原话「以后咱们的ai工具里也有chat gpt了」:ChatGPT(chatgpt.com,用 zixwei 谷歌号登录,免费版,box Chrome 默认配置)加入 AI 工具清单,规则同其他网页 AI(不发账户数据/个人信息,产出须核实).
@@ -479,7 +455,7 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-10-22｜暂不做每小时 muse2api 体检;等电脑侧免费预检(cron 等)建好再说.｜bot(Grok Bot)
 - 2026-10-19｜重活(长文,分析,翻译,生图/视频)优先交本地 muse2api,省 Grok Bot(Grok Bot) 额度;muse2api 出问题找 bot(Grok Bot),其他 bot 不自己动服务.｜全员
 
-## API 按任务选型（铁律，2026-11-21 用户定，取代 2026-11-13 免费模型铁律与 2026-11-15 固定轮换顺序）
+## API 按任务选型（铁律，2026-11-21 用户定）
 
 适用范围：全员（所有舰队成员）。各成员已连接的 API 数量与种类不同，原则相同，这是给所有成员省额度的方法。执行步骤：不按固定轮班表调用，也不限于免费 API；自己已连接的 API 都可调用；按任务类型自行判断哪个 API 最合适，综合考虑任务类型与各 API 的强项、质量、速度、额度/成本与可用状态；免费额度仍是成本因素之一，但不是唯一决定因素；某个 API 报错或限流（429）就换下一个合适的；自己做排最后，所有已连接的模型 API 都先用，无论什么方式（自己的 token、自己的生图额度、自己程序画），自己做都排在最后，实在无法完成任务时才自己做（2026-11-21 用户补定并纠正，同日定为全员适用）。违反标准：不加判断按固定顺序机械轮换，或明知有更合适的已连接 API 却不用，或已连接 API 还能用时先用自己的。AMD 中国版每天 5 分北京时间 0 点重置，不用就作废，适合它的任务仍可大胆用（此句只适用于连了 AMD 中国版的成员）。
 
@@ -503,7 +479,6 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 - 2026-11-10 10:24 ET(zixwei 在 bot(Grok Bot) 聊天原话「舰队记忆备份改成只备份有改动之前的两个版本」)
     舰队记忆备份保留策略: 每个记忆文件只保留「当前版本」以及「这次改动之前的两个版本」 (共最多 3 份: 现行版 + 前两代历史快照). 更早的版本化记忆快照不再备份,不再保留在工作副本中; 没有改动的文件不另存新版本. 不改写 Git 提交历史. 本地确认已推上远程后才删被淘汰的旧本地副本 (2026-10-22 条仍适用).
     bot(Grok Bot)
-    补充 2026-10-25「新建 bot 自动纳入备份」与 2026-10-22「确认推上远程后才删」: 限制保留份数
 - 「zixwei 2026-11-01 08:26 ET 采纳」
     run-log:每个任务/定时任务每跑一次,在 /workspace/fleet/data/run-log.md 写一行:时间(ET),任务,状态(合格/待审/卡住),重试次数,人工修补分钟数,证据路径;拿不到的写「未知」,不估.guse(Muse) 每周一,周四优化时据此找最费事,最常空跑的例程 (维护者 2026-11-19 改).
     全员(不含测试bot),bot(Grok Bot)
@@ -614,13 +589,9 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 
 正文只留一处: 见 02 部分第 2 节 2026-11-12 15:40 ET 主动推进条. 本处不复述 (2026-11-19 去重).
 
-## 问用户之前的强制检查（2026-11-12 用户立，2026-11-12 15:09 改回一行）
+## 问用户之前的强制检查（2026-11-12 用户立）
 
-舰队任务问用户之前，必须先过这一行，过不了不许问：
-
-1. 只有动作在高风险清单里（花钱、升级、下单），才停下来问用户。
-没有安全标记这一栏。
-禁止瞎判断。
+正文只留一处: 见 02 部分第 2 节 2026-11-12 15:40 ET 问用户之前的强制检查条. 本处不复述.
 
 ### 历史经验 (本类)
 

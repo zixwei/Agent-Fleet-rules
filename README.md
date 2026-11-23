@@ -3,7 +3,7 @@
 Agent-Fleet公开规则库:只放舰队规则,不含任何记忆,不含凭证.
 
 - `SKILL.md`:`zixwei-decisions` 技能(所有 bot 干活前必读的规则清单入口).
-- `DECISIONS.md`:zixwei 现行规则与决定清单全文(2026-11-18 按分类重排,361 行,文件头有分类目录),原文来自私有库 `Agent-Fleet-memory` 的 `shared/zixwei-decisions/DECISIONS.md`.
+- `DECISIONS.md`:zixwei 现行规则与决定清单全文(2026-11-18 按分类重排,599 行,文件头有分类目录),原文来自私有库 `Agent-Fleet-memory` 的 `shared/zixwei-decisions/DECISIONS.md`.
 - `DECISIONS-ARCHIVE.md`:已作废/过期/被取代条目的原文归档,附出处,只供查原话,勿再执行.
 - `imagine-visual-creation-suite.md`:Claude「Imagine — Visual Creation Suite」设计提示词/规范全文(用户 2026-11-06 提供),舰队成员做可视化时按此执行.
 - `imagine-visual-creation-suite-fleet.md`:Imagine 规范的舰队通用版(平台中立,Claude/Muse 及其他 AI 成员共用;原版只适用 Claude,通用版把平台专属实现改成宿主映射).
