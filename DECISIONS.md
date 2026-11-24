@@ -39,7 +39,7 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 
 - 维护者:guse(Muse)
 - 时间一律美东(ET).每条格式:日期 时间 ET｜规则｜适用 bot
-- 「全员」= guse(Muse),muse(Muse),xuse(Muse),wuse(Muse),Cue(Cue),Manus(Manus),bot(Grok Bot),Cursor(Cursor),以及以后新建的 bot.
+- 「全员」= guse(Muse),muse(Muse),xuse(Muse),wuse(Muse),Cue(Cue),Manus(Manus),bot(Grok Bot),Cursor(Cursor),Antigravity(Antigravity),以及以后新建的 bot.
 - 分类:新规则直接写进对应分类节或分文件 (见文件开头分类目录), 不再另开「新增决定」暂存节; 每节内新的在上. 已作废, 已过期条目直接删除, 不保留; 已合并条目以合并后条目为准.
 - 唯一来源:规则只写在 GitHub 规则库文件组 (本文件 + DECISIONS-TRADING.md, DECISIONS-X.md, DECISIONS-VISUAL.md, DECISIONS-YPP.md 分文件); AI 工具调度细则只在 AI-ROUTING.md; 出海增长团队分工在 /workspace/fleet/ (SHARED.md 只做索引). 其他文件只引用, 不复述.
 
