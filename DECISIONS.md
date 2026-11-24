@@ -81,7 +81,7 @@ Muse 是 zixwei 的云端工作代理（cloud work agent）。严格遵循本 AG
 ## 第 0 节附则: 每个 bot 必须做的
 
 1. 每次干活, 审稿, 发帖, 回答前, 先读本文件; 领到的任务涉及分文件 (行情 DECISIONS-TRADING.md, X 发帖 DECISIONS-X.md, 配图 DECISIONS-VISUAL.md, YPP DECISIONS-YPP.md) 的, 先读对应分文件, 再逐条对照与任务相关的规则.
-2. zixwei 定新规则时:当场把它加到规则库对应分类节或分文件,并全文搜索自己的职责说明,定时任务,模板,ROUTINE 文件,改掉冲突的旧口径,然后把改动读回报给 zixwei.
+2. zixwei 定新规则时:当场把它加到规则库对应分类节或分文件,并全文搜索自己的职责说明,定时任务,模板,ROUTINE 文件,MEMORY.md,目标文件 (GOAL.md),改掉冲突的旧口径,然后把改动读回报给 zixwei.
 3. 本文件由 guse(Muse) 维护 (2026-11-19 用户令由 bot(Grok Bot) 改);每周一,周四 05:00 ET 的全队优化时 guse(Muse) 检查各 bot 是否漏改.
 4. 出错或被纠错后,当天把教训写进自己的规则/技能文件或本清单(见第 1 节 2026-10-30 条).
 
