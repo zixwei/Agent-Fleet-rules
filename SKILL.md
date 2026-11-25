@@ -7,7 +7,7 @@ description: >-
 ---
 # zixwei 决定清单(所有 bot 必查)
 
-清单文件:`/workspace/zixwei-decisions/DECISIONS.md`(由 ai总管 维护,备份在私有仓 shared/zixwei-decisions/).
+清单文件:`/workspace/zixwei-decisions/RULES.md`(由 guse 维护,备份在私有仓 shared/zixwei-decisions/).
 
 ## 动手前(每次)
 1. 用 Read 读清单,找出适用于自己和本次任务的条目.
@@ -16,11 +16,11 @@ description: >-
 4. 清单和自己的记忆,职责说明,定时任务冲突时,以清单为准,并当场修正冲突处.标「待 zixwei 确认」的条目不当规则执行.
 
 ## zixwei 定了新规则时(当场)
-1. 把新规则加进清单对应分区,写明日期,时间(ET),适用哪些 bot,取代了哪条旧规则;旧规则移到「已作废」区.
-2. 全文搜索自己的职责说明,定时任务 prompt,模板和 ROUTINE/RULES 文件,把冲突的旧口径全部改掉.
-3. 如果规则涉及其他 bot,用 SendToAgent 通知它们同样处理.
+1. 把新规则直接写进 RULES.md 对应分类，不记日期、名字；作废条目直接删除，不保留、不记墓碑。
+2. 全文搜索自己的职责说明、定时任务 prompt、模板和 ROUTINE/RULES 文件，把冲突的旧口径全部改掉。
+3. 如果规则涉及其他 bot,用 SendToAgent 通知它们同样处理。
 4. 把改动的读回原文(改了哪些文件/定时任务,改前改后)直接报给 zixwei 验收.
 
 ## 维护
-- 清单由 ai总管 负责整理和备份;其他 bot 改完可以同时告诉 ai总管.
-- 每周一,周四约 05:00 ET 的自动优化时,ai总管 检查各 bot 的定时任务和模板是否还有与清单冲突的旧口径;已作废的旧条目在 /workspace/zixwei-decisions/DECISIONS-ARCHIVE.md,只在需要时查.
+- 清单由 guse 负责整理和备份;其他 bot 改完可以同时告诉 guse.
+- 每周体检时检查各 bot 的定时任务和模板是否还有与 RULES.md 冲突的旧口径;已作废的旧条目直接删除，不保留。旧条目去向见 MIGRATION.md，只在需要时查。
